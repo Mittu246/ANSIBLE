@@ -1,0 +1,11 @@
+- name: play level varibales
+  hosts: local
+  connection: local
+  vars:
+    Name: srikesh
+    Place: newcastle
+
+  tasks:
+  - name: print course information
+    ansible.builtin.debug:
+      msg: "hello my name is {{ srikesh }} and i am from {{ newcastle }}"
