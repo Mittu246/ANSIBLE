@@ -3,6 +3,9 @@
 - name: play level variables
   hosts: local
   connection: local
+  vars_files:
+  - course.yaml
+
  # vars:
    # name: srikesh
     # state: NSW
