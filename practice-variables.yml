@@ -11,8 +11,8 @@
     # state: NSW
   tasks:
   - name: print the name and state
-    vars:
-      name: mittu
-      state: vic
+   # vars:
+      #name: mittu
+     # state: vic
     ansible.builtin.debug: 
       msg: "my name is {{ name }} and staying in {{ state }} Newcastle"
