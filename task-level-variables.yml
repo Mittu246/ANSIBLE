@@ -1,0 +1,13 @@
+- name: task level varibales
+  hosts: local
+  connection: local
+  vars:
+    name: mittu
+    location: newcastle
+  tasks:
+  - name: personal details
+    vars:
+      course: ansible
+      duration: 10
+    ansible.builtin.debug:
+      msg: "hello {{ course }} course {{ duration }}""
