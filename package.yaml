@@ -1,0 +1,8 @@
+- name: install package in frontend
+  hosts: local
+  connection: local
+  tasks:
+  - name: installing the package
+    ansible.builtin.package:
+    name: state
+    state: present
