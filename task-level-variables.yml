@@ -10,4 +10,4 @@
       course: ansible
       duration: 10
     ansible.builtin.debug:
-      msg: "hello {{ course }} course {{ duration }}""
+      msg: "hello {{ course }} course {{ duration }}"
