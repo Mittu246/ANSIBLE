@@ -7,7 +7,7 @@
   tasks:
   - name: personal details
     vars:
-      course: ansible
+      course: ansible # task level variables it gives priority to task level
       duration: 10
     ansible.builtin.debug:
       msg: "hello {{ course }} course {{ duration }}"

@@ -1,0 +1,12 @@
+
+# In ansible variables can send through 5 types
+- name: play level variables
+  hosts: local
+  connection: local
+  vars:
+    name: srikesh
+    state: NSW
+  tasks:
+  - name: print the name and state
+    ansible.builtin.debug: 
+      msg: "my name is {{ name }} and staying in {{ state }} Newcastle"
