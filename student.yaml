@@ -1,0 +1,17 @@
+- name: Srikesh # object
+  firstname: m
+  lastname: mula   # field
+  addresses:   # list of addresses and list starts with symbol -
+  - type: perm
+    doorno: 7117
+    street: suryanagar
+
+- name: Srikesh # object
+  firstname: m
+  lastname: mula   # field
+  addresses:   # list of addresses and list starts with symbol -
+  - type: perm
+    doorno: 7117
+    street: suryanagar
+
+    # list of students
